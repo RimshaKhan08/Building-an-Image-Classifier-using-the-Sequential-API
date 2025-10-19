@@ -24,17 +24,9 @@ This project uses a **Neural Network (MLP)** built with **TensorFlow & Keras** t
 * **Metrics:** Accuracy
 * Includes **validation set** to monitor model performance
 
-## 🔍 Prediction
-
-```python
-y_proba = model.predict(X_new)
-y_pred = np.argmax(y_proba, axis=1)
-```
 
 ## ✅ Results
 
 The model achieves **high accuracy** on both training and test sets for classifying fashion items.
 
----
 
-Would you like me to make this README in a **GitHub-styled format** (with emojis, badges, and a “How to Run” section)? It’ll look more professional.
