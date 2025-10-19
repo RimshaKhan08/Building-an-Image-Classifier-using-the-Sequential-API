@@ -1,8 +1,10 @@
- Fashion MNIST Classification
 
-This project uses a Neural Network (MLP) built with TensorFlow & Keras to classify fashion items from the Fashion MNIST dataset
 
- Dataset
+# 👗 Fashion MNIST Classification
+
+This project uses a **Neural Network (MLP)** built with **TensorFlow & Keras** to classify fashion items from the **Fashion MNIST dataset**.
+
+## 📊 Dataset
 
 * **Shape:** (60,000, 28, 28) training images
 * **Classes:** 10 fashion categories (e.g., T-shirt, Trouser, Sneaker, Bag, etc.)
@@ -22,6 +24,12 @@ This project uses a Neural Network (MLP) built with TensorFlow & Keras to classi
 * **Metrics:** Accuracy
 * Includes **validation set** to monitor model performance
 
+## 🔍 Prediction
+
+```python
+y_proba = model.predict(X_new)
+y_pred = np.argmax(y_proba, axis=1)
+```
 
 ## ✅ Results
 
